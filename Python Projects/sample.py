@@ -1,5 +1,8 @@
-print("Hello, World!")
-#EXIT
-x = 42 % 10
-print(x)
-print("123" + "abc")
+x = 2
+if x < 2 :
+    print('Below 2')
+elif x < 20 :
+    print('Below 20')
+elif x < 10 :
+    print('Below 10')
+print('All done')
